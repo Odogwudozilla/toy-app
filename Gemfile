@@ -21,16 +21,16 @@ group :development do
 end
 
 
-# group :production do
-#   gem 'pg', '0.20.0'
-# end
+group :production do
+  gem 'pg', '0.20.0'
+end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
 
-# source 'https://rubygems.org'
+source 'https://rubygems.org'
 
 # git_source(:github) do |repo_name|
 #   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
